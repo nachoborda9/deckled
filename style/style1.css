@@ -1,0 +1,153 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+.izq {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo {
+    height: 35px; 
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 2px solid;
+}
+
+h1 {
+
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.principal {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000; /* Borde del h2 */
+    padding: 10px;           /* Espacio interno */
+    width: fit-content;      /* Ajusta el ancho al contenido */
+    margin: 20px auto;       /* Centra el h2 horizontalmente */
+    text-align: center;      /* Centra el texto dentro del h2 */
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around; /* Espacia los productos horizontalmente */
+    padding: 20px;
+}
+.producto{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    border: 2px solid #ccc; /* Borde para cada producto */
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px; /* Ancho fijo para cada producto */
+    text-align: center; /* Centra el contenido dentro del producto */
+}
+
+.pixelimg {
+    height: 100px;
+    width: 100px;
+}
+
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.formulariocont {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.botonform {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botonform:hover {
+    background-color: #0056b3;
+}
+
+
+a:hover{
+    color: orange;
+}
+
+@media (min-width: 960px) {
+    .carousel-inner {
+        width: 100%;
+    }
+}
+
+
+
