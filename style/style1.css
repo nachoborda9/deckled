@@ -24,20 +24,11 @@ ul li {
     margin: 0 15px;
 }
 
-
-.izq {
-    display: flex;
-    align-items: center;
-}
-
-
-
-.logo {
-    height: 35px; 
-    margin-right: 10px;
-    vertical-align: middle;
-    border: 2px solid;
-}
+  .logo {
+    width: 50px; /* Increase the logo size */
+    height: auto;
+    margin-left: 20px; /* Add a margin to the left of the logo */
+  }
 
 h1 {
 
@@ -78,13 +69,14 @@ h3{
 }
 
 .formulariocont {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px; 
-    
-}
+    max-width: 400px; /* Set the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding for readability */
+    background-color: #f9f9f9; /* Optional: add a background color to the form */
+    border: 1px solid #ddd; /* Optional: add a border around the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow effect around the form */
+  }
+  
 
 label {
     display: block;
@@ -120,12 +112,10 @@ textarea {
 }
 
 .botonform:hover {
-    background-color: #0056b3;
+    background-color: #0056b3 !important;
 }
 
-.nav-link:hover{
-    color: rgb(255, 205, 111);
-}
+
 
 @media (min-width: 960px) {
     .carousel-inner {
@@ -133,6 +123,21 @@ textarea {
     }
 }
 
+.bienvenida {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
 
 
+.bienvenida.animate {
+    animation: opacity-change 2s infinite linear;
+}
 
+@keyframes opacity-change {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
