@@ -9,6 +9,10 @@ header {
     font-style: normal;
 }
 
+.der {
+    padding-right: 50px;
+}
+
 nav {
     text-align: center;
     list-style-type: none;
@@ -74,7 +78,7 @@ h3{
     padding: 20px; 
     background: linear-gradient(to right, #f18d29, #f0be8f);
     border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
   }
   
 
@@ -102,7 +106,7 @@ textarea {
 
 .botonform {
     width: 100%;
-    padding: 10px;
+    padding: 50px;
     background-color: #007bff;
     border: none;
     border-radius: 3px;
@@ -147,6 +151,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    background-color: #f7a95b;
 }
 
 .card {
