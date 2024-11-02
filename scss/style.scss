@@ -1,5 +1,6 @@
-$primary-color: rgb(255, 205, 111);
-$color: #000;
+@import "variables";
+@import "nav";
+@import "header";
 
 .nav-link:hover{
     color: $primary-color !important;

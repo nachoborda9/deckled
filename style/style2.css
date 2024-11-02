@@ -1,9 +1,29 @@
+nav {
+  text-align: center;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .nav-link:hover {
   color: rgb(255, 205, 111) !important;
 }
 
 .nav-link {
-  color:#000 !important;
+  color: #000 !important;
 }
 
 /*# sourceMappingURL=style2.css.map */
